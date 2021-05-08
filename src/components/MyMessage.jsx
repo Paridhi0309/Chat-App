@@ -1,4 +1,4 @@
-const MyMessage=()=>{
+const MyMessage=({message})=>{
     return(
         <div>
            MyMessage

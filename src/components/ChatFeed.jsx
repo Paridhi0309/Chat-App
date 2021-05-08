@@ -17,7 +17,7 @@ const ChatFeed=(props)=>{
                        {
                            isMyMessage
                            ? <MyMessage message={message}/>
-                           :<TheirMessage message={message} lastMessage={messages[lastMessage]} /> 
+                           :<TheirMessage message={message} lastMessage={messages[lastMessage]} /> //Passing two props here in the their-message component
                        }
                    </div>
                    <div className="read-receipts" style={{marginRight: isMyMessage? '18px' :'0px',marginLeft:isMyMessage ? '0px':'68px'}}>
