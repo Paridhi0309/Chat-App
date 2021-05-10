@@ -10,7 +10,7 @@ const MessageForm=()=>{
     }
     return(
         <form className="mesage-form" onSubmit={handleSubmit}>
-            <input className="message-input" placeholder="Send a message ..." value={value} onChange={handleChange}/>
+            <input className="message-input" placeholder="Send a message ..." value={value} onChange={handleChange} onSubmit={handleSubmit}/>
             </form>
     );
 }
